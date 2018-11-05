@@ -19,7 +19,7 @@ for(i=2; i<=20; i+=2) {
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d2".
 var destination = document.getElementById("k2");
 destination.appendChild(newElement);
 
@@ -32,7 +32,7 @@ for(i=1; i<20; i+=2) {
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d3".
 var destination = document.getElementById("k3");
 destination.appendChild(newElement);
 
@@ -45,7 +45,7 @@ for(i=5; i<=100; i+=5) {
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d4".
 var destination = document.getElementById("k4");
 destination.appendChild(newElement);
 
@@ -60,7 +60,7 @@ for(i=1; square<=100; i++) {
     newElement.appendChild(newText);
     square=(i+1)*(i+1)
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d5".
 var destination = document.getElementById("k5");
 destination.appendChild(newElement);
 
@@ -73,7 +73,7 @@ for(i=20; i>=1; i--) {
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d6".
 var destination = document.getElementById("k6");
 destination.appendChild(newElement);
 
@@ -85,7 +85,7 @@ for(i=20; i>=2; i-=2) {
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d7".
 var destination = document.getElementById("k7");
 destination.appendChild(newElement);
 
@@ -98,7 +98,7 @@ for(i=19; i>=1; i-=2) {
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d8".
 var destination = document.getElementById("k8");
 destination.appendChild(newElement);
 
@@ -111,7 +111,7 @@ for(i=100; i>=5; i-=5) {
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d9".
 var destination = document.getElementById("k9");
 destination.appendChild(newElement);
 
@@ -126,7 +126,7 @@ for(i=10; square>=1; i--) {
     newElement.appendChild(newText);
     square=(i-1)*(i-1)
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d10".
 var destination = document.getElementById("k10");
 destination.appendChild(newElement);
 
@@ -149,7 +149,7 @@ sampleArray.forEach (x => {
     var newText = document.createTextNode(`${x} `);
     newElement.appendChild(newText);
 });
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d11".
 var destination = document.getElementById("k11");
 destination.appendChild(newElement);
 
@@ -164,7 +164,7 @@ sampleArray.forEach (x => {
         newElement.appendChild(newText);
     }
 });
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d12".
 var destination = document.getElementById("k12");
 destination.appendChild(newElement);
 
@@ -179,7 +179,7 @@ sampleArray.forEach (x => {
         newElement.appendChild(newText);
     }
 });
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d13".
 var destination = document.getElementById("k13");
 destination.appendChild(newElement);
 
@@ -194,7 +194,7 @@ sampleArray.forEach (x => {
         newElement.appendChild(newText);
     }
 });
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d14".
 var destination = document.getElementById("k14");
 destination.appendChild(newElement);
 
@@ -209,7 +209,7 @@ for(i=1; i<=20; i++) {
 }
 var newText = document.createTextNode(`Sum = ${sum}`);
 newElement.appendChild(newText);
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d15".
 var destination = document.getElementById("k15");
 destination.appendChild(newElement);
 
@@ -224,7 +224,7 @@ sampleArray.forEach (x => {
 });
 var newText = document.createTextNode(`Sum = ${sum}`);
 newElement.appendChild(newText);
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d16".
 var destination = document.getElementById("k16");
 destination.appendChild(newElement);
 
@@ -241,7 +241,7 @@ sampleArray.forEach (x => {
 });
 var newText = document.createTextNode(`Smallest element: ${min}`);
 newElement.appendChild(newText);
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d17".
 var destination = document.getElementById("k17");
 destination.appendChild(newElement);
 
@@ -258,7 +258,7 @@ sampleArray.forEach (x => {
 });
 var newText = document.createTextNode(`Largest element: ${max}`);
 newElement.appendChild(newText);
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d18".
 var destination = document.getElementById("k18");
 destination.appendChild(newElement);
 
@@ -275,7 +275,7 @@ for(i=1; i<=20; i++) {
     box.style.border="1px solid black"
     newElement.appendChild(box)
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d19".
 var destination = document.getElementById("k19");
 destination.appendChild(newElement);
 
@@ -293,7 +293,7 @@ for(i=1; i<=20; i++) {
     box.style.border="1px solid black"
     newElement.appendChild(box)
 }
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d20".
 var destination = document.getElementById("k20");
 destination.appendChild(newElement);
 
@@ -310,7 +310,7 @@ sampleArray.forEach (x => {
     box.style.border="1px solid black"
     newElement.appendChild(box)
 });
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d21".
 var destination = document.getElementById("k21");
 destination.appendChild(newElement);
 
@@ -327,7 +327,7 @@ sampleArray.forEach (x => {
     box.style.border="1px solid black"
     newElement.appendChild(box)
 });
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d22".
 var destination = document.getElementById("k22");
 destination.appendChild(newElement);
 
@@ -345,6 +345,6 @@ sampleArray.forEach (x => {
     box.style.border="1px solid black"
     newElement.appendChild(box)
 });
-// Put the new div on the page inside the existing element "d1".
+// Put the new div on the page inside the existing element "d23".
 var destination = document.getElementById("k23");
 destination.appendChild(newElement);
