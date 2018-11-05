@@ -1,7 +1,7 @@
 //Display numbers 1 through 20
 var newElement = document.createElement("p");
 newElement.className = "ans";
-for(i=1; i<=20; i++) {
+for(let i=1; i<=20; i++) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
@@ -14,7 +14,7 @@ destination.appendChild(newElement);
 // Displays even numbers 1 through 20
 var newElement = document.createElement("p");
 newElement.className = "ans";
-for(i=2; i<=20; i+=2) {
+for(let i=2; i<=20; i+=2) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
@@ -27,7 +27,7 @@ destination.appendChild(newElement);
 // Display the odd numbers from 1 to 20
 var newElement = document.createElement("p");
 newElement.className = "ans";
-for(i=1; i<20; i+=2) {
+for(let i=1; i<20; i+=2) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
@@ -40,7 +40,7 @@ destination.appendChild(newElement);
 // Display the multiples of 5 up to 100
 var newElement = document.createElement("p");
 newElement.className = "ans";
-for(i=5; i<=100; i+=5) {
+for(let i=5; i<=100; i+=5) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
@@ -54,7 +54,7 @@ destination.appendChild(newElement);
 var newElement = document.createElement("p");
 newElement.className = "ans";
 var square=1;
-for(i=1; square<=100; i++) {
+for(let i=1; square<=100; i++) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${square} `);
     newElement.appendChild(newText);
@@ -68,7 +68,7 @@ destination.appendChild(newElement);
 //Display numbers 20 through 1
 var newElement = document.createElement("p");
 newElement.className = "ans";
-for(i=20; i>=1; i--) {
+for(let i=20; i>=1; i--) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
@@ -80,7 +80,7 @@ destination.appendChild(newElement);
 //Display the even numbers counting backwards from 20 to 1. (20, 18, 16, …, 4, 2)
 var newElement = document.createElement("p");
 newElement.className = "ans";
-for(i=20; i>=2; i-=2) {
+for(let i=20; i>=2; i-=2) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
@@ -93,7 +93,7 @@ destination.appendChild(newElement);
 //Display the odd numbers from 20 to 1, counting backwards. (19, 17, 15, …, 3, 1)
 var newElement = document.createElement("p");
 newElement.className = "ans";
-for(i=19; i>=1; i-=2) {
+for(let i=19; i>=1; i-=2) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
@@ -106,7 +106,7 @@ destination.appendChild(newElement);
 //Display the multiples of 5, counting down from 100 to 1. (100, 95, 90, …, 10, 5)
 var newElement = document.createElement("p");
 newElement.className = "ans";
-for(i=100; i>=5; i-=5) {
+for(let i=100; i>=5; i-=5) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${i} `);
     newElement.appendChild(newText);
@@ -120,7 +120,7 @@ destination.appendChild(newElement);
 var newElement = document.createElement("p");
 newElement.className = "ans";
 var square=100;
-for(i=10; square>=1; i--) {
+for(let i=10; square>=1; i--) {
     // Place a text label inside the new div.
     var newText = document.createTextNode(`${square} `);
     newElement.appendChild(newText);
@@ -203,7 +203,7 @@ destination.appendChild(newElement);
 var newElement = document.createElement("p");
 newElement.className = "ans";
 var sum=0;
-for(i=1; i<=20; i++) {
+for(let i=1; i<=20; i++) {
     // Place a text label inside the new div.
     sum+=i
 }
@@ -266,7 +266,7 @@ destination.appendChild(newElement);
 // Display 20 solid gray rectangles, each 20px high and 100px wide
 var newElement = document.createElement("div");
 newElement.className = "ans";
-for(i=1; i<=20; i++) {
+for(let i=1; i<=20; i++) {
     // Place a text label inside the new div.
     var box = document.createElement("div");
     box.style.width="100px"
